@@ -1,0 +1,31 @@
+body {
+    background-color: #7B7B7B29;
+    margin: 0px;
+}
+nav {
+    padding: 8px;
+    margin: 0px; 
+}
+.AddNewTask {
+    text-align: end;
+    padding: 25px;
+}
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+    height: 15rem;
+    margin: 15px;
+}
+.card:hover {
+    box-shadow: 10px 10px 10px;
+    padding: 5px;
+}
+main {
+    margin: 0px 40px 0px 40px;
+}
+#done1, s {
+    opacity: 0.2;
+}

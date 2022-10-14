@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/29ffeb6595.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    body {
+        background-image: url(./img/bg.jpg.png);   
+        background-size: cover;
+    }
+    .container {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(6px);
+    }
+    .popup {
+        width: 25%;
+        border: 2px solid black;
+        padding: 1%;
+        border-radius: 8px;
+        background-color: white;
+    }
+    .pop {
+        display: grid;
+        grid-template-columns: 9fr 1fr;
+    }
+    b {
+        grid-column: 1 / 2;
+    }
+    i {
+        grid-column: 2/3;
+    }
+    input {
+        width: 100%;
+    }
+    .btn {
+        display: flex;
+        justify-content: flex-end;
+    }
+    button {
+        align-content: flex-end;
+        background-color: skyblue;
+        margin-top: 10px;
+        border-radius: 8px;
+    }
+</style>
+<body>
+    <div class="container">
+    <div class="popup">
+        <div class="pop">
+            <b>Add New Tasks</b>
+            <a href="./index.html"> <i class="fa-sharp fa-solid fa-xmark"></i> </a>
+        </div> <br>
+        <input type="text" placeholder="Learn C++"> <br>
+       <div class="btn">
+        <button>Add New Task</button>
+       </div>
+    </div>
+</div>
+</body>
+</html>
