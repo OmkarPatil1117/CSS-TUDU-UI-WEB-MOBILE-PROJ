@@ -29,3 +29,16 @@ main {
 #done1, s {
     opacity: 0.2;
 }
+
+@media only screen and (max-width:600px) {
+    section {
+        display: block;
+    }
+    .AddNewTask {
+        text-align: center;
+    }
+    #addnew {
+        display: none;
+    }
+}
+
